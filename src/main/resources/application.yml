@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: mysql123
+    url: jdbc:mysql://localhost:3306/practice-demo?serviceTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=true
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+  type-aliases-package: com.chu.practicedemo.modul
